@@ -5,16 +5,17 @@
   "authors": [
     "electblake <electblake@gmail.com>"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electblake/ng-adsense.git"
+  },
   "description": "Angular JS Directive for Google AdSense advertisements",
-  "main": "./dist/ng-adsense.min.js",
-  "moduleType": [
-    "globals"
-  ],
   "keywords": [
     "adsense",
     "angularjs",
     "google"
   ],
+  "main": "./dist/ng-adsense.min.js",
   "license": "MIT",
   "ignore": [
     "**/.*",
