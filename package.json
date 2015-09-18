@@ -1,6 +1,6 @@
 {
   "name": "ng-adsense",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Angular JS Directive for Google AdSense advertisements",
   "main": "gulpfile.js",
   "scripts": {
