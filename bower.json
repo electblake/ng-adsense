@@ -6,7 +6,7 @@
     "electblake <electblake@gmail.com>"
   ],
   "description": "Angular JS Directive for Google AdSense advertisements",
-  "main": "dist/ng-adsense.min.js",
+  "main": "./dist/ng-adsense.min.js",
   "moduleType": [
     "globals"
   ],
@@ -18,9 +18,12 @@
   "license": "MIT",
   "ignore": [
     "**/.*",
+    ".*",
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "src/",
+    "gulpfile.js"
   ]
 }
