@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * ngAdsense AngularJS module for Google AdSense advertisements.
  * @author Peter Szrnka (szrnka.peter@gmail.com)
@@ -11,12 +13,13 @@ ngAdSense.constant('SCRIPT_URL', 'http://pagead2.googlesyndication.com/pagead/js
  * @controller
  * @since 1.0
  */
-ngAdSense.controller('AdsenseController', ["SCRIPT_URL", function(SCRIPT_URL) {
+ngAdSense.controller('AdsenseController', ['SCRIPT_URL', function(SCRIPT_URL) {
 	var s = document.createElement('script');
 	s.src = SCRIPT_URL;
 	document.body.appendChild(s);
 	(adsbygoogle = window.adsbygoogle || []).push({});
 }]);
+
 /**
  * @directive adsenseDirective
  * @cfg adClient AdSense Client id. (Mandatory field)

@@ -1,0 +1,35 @@
+{
+  "name": "ng-adsense",
+  "version": "1.0.1",
+  "description": "Angular JS Directive for Google AdSense advertisements",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electblake/ng-adsense.git"
+  },
+  "keywords": [
+    "adsense",
+    "angularjs",
+    "angular",
+    "google",
+    "advertising"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/electblake/ng-adsense/issues"
+  },
+  "homepage": "https://github.com/electblake/ng-adsense#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.4.1",
+    "jshint-stylish": "^2.0.1"
+  }
+}

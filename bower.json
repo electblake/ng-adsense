@@ -1,0 +1,26 @@
+{
+  "name": "ng-adsense",
+  "version": "1.0.1",
+  "homepage": "https://github.com/electblake/ng-adsense",
+  "authors": [
+    "electblake <electblake@gmail.com>"
+  ],
+  "description": "Angular JS Directive for Google AdSense advertisements",
+  "main": "dist/ng-adsense.min.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "adsense",
+    "angularjs",
+    "google"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
