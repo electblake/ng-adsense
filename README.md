@@ -18,6 +18,14 @@ Now you have to do is add the scripts to your application. Just make sure the `n
 <script src="ng-adsense.js"></script>
 ```
 
+And finally, include it in your angular app
+
+```javascript
+
+app.module('myApp', ['ngAdsense']);
+
+```
+
 ## Usage
 
  1. Add the `ngAdsense` module as a dependency in your AngularJS app;
